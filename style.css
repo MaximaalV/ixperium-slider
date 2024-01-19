@@ -1,4 +1,18 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #2d3436;
+}
+
 .splide__slide img {
     max-width: 100%;
     height: auto;
+}
+
+.splide__arrow {
+    opacity: 1;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #f6f01e;
 }

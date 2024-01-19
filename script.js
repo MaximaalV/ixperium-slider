@@ -7,6 +7,9 @@ var splide = new Splide( '.splide', {
         perMove: 1,
         gap    : '.7rem',
         type: 'loop',
+        drag: 'free',
+        snap: true,
+        autoplay: true,
       },
       480: {
         perPage: 1,
