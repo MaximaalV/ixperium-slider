@@ -4,8 +4,9 @@ var splide = new Splide( '.splide', {
     breakpoints: {
       640: {
         perPage: 2,
+        perMove: 1,
         gap    : '.7rem',
-
+        type: 'loop',
       },
       480: {
         perPage: 1,
