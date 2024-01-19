@@ -5,14 +5,30 @@ body {
     background-color: #2d3436;
 }
 
-.splide__slide img {
+img {
     max-width: 100%;
     height: auto;
+}
+
+.slider_wrapper {
+    padding: 50px 15px;
+    max-width: 1240px;
+    margin: 0 auto;
 }
 
 .splide__arrow {
     opacity: 1;
     width: 2.5rem;
     height: 2.5rem;
+    background-color: #f6f01e;
+}
+
+.splide__pagination__page {
+    bottom: -2rem;
+    color: ;
+}
+
+.slider_wrapper .splide__pagination__page.is-active {
+    opacity: 1;
     background-color: #f6f01e;
 }
