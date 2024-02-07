@@ -16,6 +16,7 @@ body {
     max-width: 40%;
     border-radius: 0px;
     padding: 0 10px;
+    filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 0.647));
 }
 
 img {
